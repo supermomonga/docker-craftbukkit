@@ -10,4 +10,4 @@ RUN chmod +x /usr/local/bin/craftbukkit
 
 EXPOSE 25565:25565
 
-ENTRYPOINT ["/bin/bash"]
+ENTRYPOINT craftbukkit
